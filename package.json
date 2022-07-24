@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/js/index.js",
     "build": "tsc",
-    "server": "concurrently \"tsc -w\" \"nodemon dist/js/index.js\""
+    "serve": "concurrently \"tsc -w\" \"nodemon dist/js/index.js\""
   },
   "author": "",
   "license": "ISC",
